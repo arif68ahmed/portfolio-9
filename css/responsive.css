@@ -1,0 +1,231 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  .d-menu{
+    margin-left: -650%;
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .d-menu{
+    margin-left: -650%;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .d-menu{
+    margin-left: -600%;
+}
+.ddown{
+  padding: 5px 10px;
+
+
+}
+  /* CSS */
+  .nav-item {
+    text-align: center;
+}
+  .banner-left h1 {
+    font-size: 50px;
+  }
+  .offset-1{
+    margin-left: 0 !important;
+  }
+  .col-md-4 {
+    width: 45.333% !important;
+}
+.feature-head p{
+  padding: 0% 20% !important;
+}
+.f-box{
+}
+.d-flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  .nav-item {
+    text-align: center;
+}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    .banner-left h1 {
+      font-size: 30px;
+    }
+    .btn-2 {
+      margin-bottom: 20px;
+    }
+    .nav-item {
+      text-align: center;
+  }
+  .btn-1{
+    margin-left: 30%;
+  }
+  .feature-head p{
+    padding: 0;
+  }
+  .f-box{
+    text-align: center;
+  }
+  .offset-1{
+    margin-left: 0 !important;
+  }
+  
+  .r-text {
+    padding: 33px 27px;
+  }
+  .i-box{
+    margin-bottom: 40px;
+  }
+  .offer-head h2 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .offer-head {
+    text-align: center;
+  }
+  .f2-head h2 {
+    font-size: 32px;
+  }
+  .f2-head p {
+    padding: 0;
+  }
+  .btn-4 {
+    margin-bottom: 20px;
+  }
+  .offset-2{
+    margin-left: 0 !important;
+  }
+  .slide-p p {
+    font-size: 16px;
+  }
+  .desh12 {
+    bottom: -20px;
+  }
+  footer{
+    text-align: center;
+  }
+  .logo2-text p {
+    width: 100%;
+  }
+  .r-text{
+    right: 0px;
+  }
+  .form{
+    margin-top: 20px !important;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner-left h1 {
+    font-size: 30px;
+  }
+  .btn-2 {
+    margin-bottom: 20px;
+  }
+  .nav-item {
+    text-align: center;
+}
+.btn-1{
+  margin-left: 20%;
+}
+.feature-head p{
+  padding: 0;
+}
+.f-box{
+  text-align: center;
+}
+.offset-1{
+  margin-left: 0 !important;
+}
+
+.r-text {
+  padding: 33px 27px;
+}
+.i-box{
+  margin-bottom: 40px;
+}
+.offer-head h2 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+.offer-head {
+  text-align: center;
+}
+.f2-head h2 {
+  font-size: 32px;
+}
+.f2-head p {
+  padding: 0;
+}
+.btn-4 {
+  margin-bottom: 20px;
+}
+.offset-2{
+  margin-left: 0 !important;
+}
+.slide-p p {
+  font-size: 16px;
+}
+.desh12 {
+  bottom: -20px;
+}
+footer{
+  text-align: center;
+}
+.logo2-text p {
+  width: 100%;
+}
+.r-text{
+  right: 0px;
+}
+.form{
+  margin-top: 20px !important;
+}
+.d-menu{
+  display: none;
+}
+
+}
